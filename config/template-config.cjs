@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '亲爱的公主, 早上好',
     desc: `
       **{{date.DATA}}**
       
@@ -16,23 +16,17 @@ const TEMPLATE_CONFIG = [
       
       气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风向: {{wind_direction.DATA}}
-      
-      风级: {{wind_scale.DATA}}
-      
+     
       {{comprehensive_horoscope.DATA}}
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      今天是我们在一起的第{{love_day.DATA}}天 ❤️
       
-      {{birthday_message.DATA}}
+      新的一天也要继续爱你！
       
       ---
       
-      {{moment_copyrighting.DATA}}
-      
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
   },
   {
